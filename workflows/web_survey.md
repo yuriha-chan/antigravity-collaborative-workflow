@@ -48,7 +48,7 @@ Once the Survey Strategy artifact is drafted, the agent must halt and present th
 Only after user approval does the agent execute the planned research.
 
 3.  **Search Quality Report (Initial Evaluation):** After running the targeted queries, evaluate the results by adding a Search Quality Report section to the final document. The report must cover:
-    *   **Numerical data added to Quality report:** Include source quality and composition metrics (number of valid sources, percentage of sources by type (e.g. academic, government, blog, etc.)).
+    *   **Numerical data added to Quality report:** Include source quality and composition metrics (number of valid sources, percentage of sources by type (e.g. academic, government, blog, official references, etc.)).
     *   **Illustrative Quotes:** Quote specific examples from the search results demonstrating any noise, bias, or insufficiency.
     *   **Potential Biases:** Note if the results lean too heavily toward a specific toolstack, mindset, or one side of the stakeholders.
     *   **Proposed Refinements:** Propose new refined queries if structural gaps are evident.
