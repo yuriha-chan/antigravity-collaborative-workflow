@@ -1,4 +1,4 @@
-# Antigravity: The Absorptive Partner
+# Antigravity Collaborative Workflow: The Absorptive Partner
 
 **A Dialogue-First AI Coding Workflow**
 
@@ -6,12 +6,13 @@ This repository contains a suite of advanced, human-centric workflows designed f
 
 ## Core Philosophy: Think Before You Type
 
-The most expensive mistake in software engineering is rapidly and efficiently building the *wrong thing*. Default AI coding agents often rush to code generation the moment they receive a prompt, leading to misaligned architectures, bloated codebases, and missed requirements. 
+In modern software development, building the wrong thing quickly and efficiently is one of the most sophisticated form of failure.
+Today's AI coding agents rush through life too fast. Upon receiving a prompt, they immediately dive into code generation, leading to architectural inconsistencies, bloated codebases, and deviations from requirements. To avoid such failures, we need a wise workflow that fosters healthy communication between AI and humans.
 
-The **Absorptive Partner** philosophy is built on three pillars:
-1. **Dialogue First:** The AI acts as a peer in a university seminar. It uses the "Absorption Phase" to listen, probe, and ask clarifying questions about unstated assumptions and anti-goals, strictly forbidding any destructive tool calls or code generation.
-2. **Exposing Tacit Knowledge:** Instead of treating human prompts as literal specifications, the workflow treats them as starting anchors. It leverages spatial mapping (Mermaid diagrams) and structural dialog to reveal the hidden complexities the user hasn't explicitly stated.
-3. **Rigorous Alignment:** Before writing a single line of implementation code, the AI must *prove* it understands the user by quoting them directly, establishing a "Ubiquitous Language" (a shared glossary), and demanding explicit user sign-off on a formal Implementation Plan.
+The **Absorptive Partner** philosophy rests on three pillars:
+1. **Prioritize Dialogue:** During the “absorption phase,” questions are used to listen, probe, and clarify implicit assumptions, design philosophies, and the anti-goals. Destructive tool invocations or code generation are prohibited. The AI is instructed to speak in an intellectual tone, akin to a university seminar.
+2. **Visualizing Tacit Knowledge:** Rather than treating human prompts as literal specifications, the workflow positions them as a starting point. It leverages structured dialogue flows to uncover hidden complexities users haven't explicitly stated.
+3. **Ensuring Rigorous Consistency:** The AI transcribes agreed-upon points from discussions. The AI is required to obtain user's approval of this document before planning of implementation. This document, alignment summary, includes quotations from the conversation and defines a “Universal Language” (shared terminology), embedding “statistically rare” innovative ideas as reliable reference points.
 
 ## Feature Synopsis
 
@@ -28,7 +29,7 @@ The system is organized into a core "Meta-Orchestrator" and several highly speci
 *   **`visualize_logic.md`**: A focused tool to force the visual mapping of ambiguous logic via `Mermaid.js`.
 
 **Research Methodologies:**
-*   **`web_survey.md`**: A rigorous, formalized "Plan, Approve, Do" workflow for conducting targeted web research. It prevents aimless AI browsing by enforcing Survey Strategy artifacts, strict user sign-offs, and explicit Search Quality Reports.
+**`web_survey.md`**: A rigorous, formalized “plan, approve, execute” workflow for conducting targeted web surveys. Outputs Survey Strategy as artifacts, executes searches only after user approval. Automates sophisticated, broad surveys using proxy search terms to prevent low-quality results from web information pollution. Furthermore, search quality reports are provided, enabling further iteration on the survey strategy.
 
 ## How to use
 1. Place the `workflow/` and `rules/` directories into the `.agents/` directory in the workspace.
@@ -36,6 +37,6 @@ The system is organized into a core "Meta-Orchestrator" and several highly speci
 3. Start the `absorptive_partner.md` workflow. You can start the workflow by saying `/absorptive_partner I want to create an application for [purpose]. Look into the conversation log @log.txt` for example. (If your Antigravity fails to recognize the workflow document, @[.agents/workflows/absorptive_partner.md] works.)
 
 ## Notes
-The Claude models tend to obey the "do not hurry" instructions in the workflow documents very well. If you get tired to have a long discussion, you are responsible to move on to other topics by refering the Task list. The tricky standpoint generation Task duplication instruction is intended to offer infinite design discussion in Phase 1, but the task list may get confused. If so, please tidy out.
+The Claude models tend to obey the "do not hurry" instructions in the workflow documents very well. If you get tired to have a long discussion, you are responsible to move on to other topics by refering the Task list. The tricky instruction of duplicating standpoint generation task is intended to offer infinite design discussion in Phase 1, but the task list may get confused. If so, please tidy out.
 
 When you use Gemini models, the conversation pace will be more hurried in Phase 1. You can instruct the agent to add more standpoints using `@phase1_standpoints_generation.md` to continue the discussion.
