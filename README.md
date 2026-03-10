@@ -1,5 +1,7 @@
 # Antigravity Collaborative Workflow: The Absorptive Partner
 
+[Japanese/日本語](README.ja.md)
+
 **A Dialogue-First AI Coding Workflow**
 
 This repository contains a suite of advanced, human-centric workflows designed for Antigravity, fundamentally shifting the AI from an immediate "task executor" to a "collaborative architect."
