@@ -17,6 +17,7 @@ Immediately initialize your `task.md` ledger with the following recursive review
 - "[ ] Reorder checklist: move any empty (unchecked [ ]) absorption standpoints to the bottom of the list, ensuring they are not positioned above checked [x] items."
 - "[ ] (Important) When current standpoints are exhausted, review the currently established absorption points and actively seek and add two or three standpoints based on the dialogue. The new standpoints MUST be added to the bottom of the Phase 1 Task list. In addition, save the content of `.agents/rules/phase1_standpoints_generation.md`, newly added standpoints, and the current timestamp to the newly created artifact `Absorption_Standpoints_Summary_Version_1.md`.
 - "[ ] (Important) Duplicate the above "(Important) Review the currently established absorption points and ..." item and increment the Version number in the artifact filename, and add it to the bottom of the Phase 1 sub-list; then, duplicate this item and add it to the bottom of the Phase 1 sub-list."
+- "[ ] (Important) Create 'Essential code snipets' which illustrates the design agreement. Multiple snipets should be shown reflecting involved layers and aspects (e.g. data structure, APIs, code integration) while kept concise."
 - "[ ] (Important) Obtain explicit user permission to move to Phase 2 and save the user's explicit words of permission in the artifact `Permission_to_move_to_phase2.md` with current timestamp and summary of `.agents/rules/phase1_progression.md`, or continue the Phase 1."
 
 **Handling Alternate Starting Anchors**:
